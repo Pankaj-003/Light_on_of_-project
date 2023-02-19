@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: rgb(21, 21, 28);
+}
+#nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#nav-links h1{
+margin-left: 15px;
+  font-size: 40px;
+  margin-right: 500px;
+}
+#nav-links ul{
+display: flex;
+}
+#nav-links ul li a{
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 20px;
+
+}
+.s1{
+    height: 3px;
+    width: 35px;
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+
+
+}
+.s2{
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 8px;
+}
+.s3{
+    height: 3px;
+    width: 15px;
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 8px;
+}
+#span-box{
+    display: flex;
+    flex-direction: column;
+  
+}
+#nav-links ul li{
+    list-style: none;
+}
+#light-box-light{
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 100px;
+    border-bottom: 250px solid rgba(247, 247, 235, 0.2);
+    background: linear-gradient(51deg, rgba(255,255,255,1) 0%, rgba(248,250,196,1) 95%, rgba(252,252,252,1) 10071%);
+    /* background-color: red; */
+    position: absolute;
+    top: 198px;
+    left: 173px;
+    display: none;
+    /* transition: 2000ms; */
+    
+
+}
+.light-box{
+    width: 50%;
+    float: right;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+.about-box h1{
+   font-size: 40px;
+   /* width: 200px; */
+}
+.about-box button{
+    margin-top: 20px;
+    color: rgb(3, 107, 3);
+padding: 10px 20px;
+border-radius: 3px;
+cursor: pointer;
+
+
+
+}
+.about-box p{
+
+margin-top: 20px;
+
+}
+.light-box img{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    /* ishadow: 10px 10px black; */
+     
+
+
+}
+#toggle-btn{
+
+    padding: 10px 12px;
+    border-radius: 10px; 
+   
+    border: none;
+    cursor: pointer;
+    float: left;
+
+    margin-top: -3px; 
+    margin-left: 3px;
+    background-color: rgb(148, 147, 147);
+    /* transition: 2s; */
+   
+}
+
+
+#btn{
+    border-radius: 10px; 
+   height: 15px;
+   width: 50px;
+ 
+    background-color: white;
+  
+
+}
