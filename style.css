@@ -64,8 +64,9 @@ display: flex;
     border-right: 100px solid transparent;
     width: 100px;
     border-bottom: 250px solid rgba(247, 247, 235, 0.2);
-    background: linear-gradient(51deg, rgba(255,255,255,1) 0%, rgba(248,250,196,1) 95%, rgba(252,252,252,1) 10071%);
+    /* background: linear-gradient(51deg, rgba(255,255,255,1) 0%, rgba(248,250,196,1) 95%, rgba(252,252,252,1) 10071%); */
     /* background-color: red; */
+    /* border-image:linear-gradient(100deg, rgba(255,255,255,1) 0%, rgba(248,250,196,1) 95%, rgba(252,252,252,1) 10071%); */
     position: absolute;
     top: 198px;
     left: 173px;
